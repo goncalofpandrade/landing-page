@@ -129,3 +129,30 @@ h2 {
 
 /* End of first_main_body */
 
+/* Beginning of second_main_body */
+
+.second_main_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    background-color: #E5E7EB;
+}
+
+.inspiring_quote {
+    width: 780px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.author {
+    color: #000000;
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* End of second_main_body */
+
