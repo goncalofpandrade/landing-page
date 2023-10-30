@@ -7,3 +7,8 @@ body {
 .header_body, .footer{
     background-color: #1F2937;
 }
+
+.header_body {
+    display: flex;
+    flex-direction: column;
+}
