@@ -23,7 +23,7 @@ body {
 
 .header_logo {
     color: #F9FAF8;
-    font-size: 18px ;
+    font-size: 18px;
 }
 
 ul {
@@ -83,8 +83,48 @@ h1 {
 
 /* Beginning of first_main_body */
 
+.first_main_body {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
 
+.first_main_content {
+   display: flex;
+   gap: 40px;
+}
 
+.main_strutures {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.frame {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 160px;
+    height: 160px;
+}
+
+.subtext {
+    margin-top: 10px;
+    width: 180px;
+    color: #5a5a5a;
+    text-align: center;
+    font-size: 18px;
+}
 
 /* End of first_main_body */
