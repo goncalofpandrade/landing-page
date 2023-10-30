@@ -41,7 +41,7 @@ a {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    margin: 60px 0px;
+    margin: 80px 0px;
 }
 
 h1 {
@@ -53,14 +53,25 @@ h1 {
 }
 
 .website_description {
-    margin-top: 0px;
-    width: 475px;
+    margin-top: 8px;
+    width: 470px;
     color: #E5E7EB;
     font-size: 18px;
 }
 
+.header_button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 36px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .image_placeholder {
-    padding: 80px 80px;
+    padding: 110px 80px;
     background-color: rgba(122, 122, 122, 0.692);
     color: #E5E7EB;
     font-size: 18px;
