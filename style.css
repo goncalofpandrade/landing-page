@@ -4,6 +4,8 @@ body {
     min-height: 100vh;
 }
 
+/* Beginning of header_body */
+
 .header_body, .footer{
     background-color: #1F2937;
 }
@@ -76,3 +78,5 @@ h1 {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+/* End of header_body */
