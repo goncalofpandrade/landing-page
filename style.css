@@ -141,6 +141,7 @@ h2 {
 }
 
 .inspiring_quote {
+    margin: 0;
     width: 780px;
     color: #1F2937;
     font-size: 36px;
@@ -148,6 +149,7 @@ h2 {
 }
 
 .author {
+    margin: 0;
     color: #000000;
     text-align: end;
     font-size: 24px;
@@ -158,6 +160,44 @@ h2 {
 
 /* Beginning of third_main_body */
 
+.third_main_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
 
+.sign_up_frame {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 30px 100px;
+    background-color: #3882F6;
+}
+
+.call_to_action_title {
+    margin: 0;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.sign_up {
+    margin: 0;
+    color: #ffffffa6;
+    font-size: 18px;
+}
+
+.main_button {
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    padding: 10px 36px;
+    background-color: #3882F6;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 /* End of third_main_body */
